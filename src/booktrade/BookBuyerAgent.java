@@ -37,8 +37,7 @@ public class BookBuyerAgent extends Agent {
 	// The title of the book to buy
 	private String targetBookTitle;
 	// The list of known seller agents
-	private AID[] sellerAgents = {new AID("seller1", AID.ISLOCALNAME),
-		 new AID("seller2", AID.ISLOCALNAME)};;
+	private AID[] sellerAgents;
 
 	// Put agent initializations here
 	protected void setup() {
